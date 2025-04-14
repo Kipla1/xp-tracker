@@ -1,9 +1,25 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "myExpenses": [
+    {
+      "expense": "Pocha Nyagu",
+      "category": "Food",
+      "description": "Chapo and nyama at Mama Mboga",
+      "price": 180,
+      "date": "01-04-2025"
+    },
+    {
+      "expense": "Chips Kuku",
+      "category": "Food",
+      "description": "KFC date night",
+      "price": 300,
+      "date": "03-04-2025"
+    },
+    {
+      "expense": "Car loan",
+      "category": "Loan",
+      "description": "Loan to buy Porsche 911",
+      "price": 30000000,
+      "date": "06-04-2025"
+    }
+  ]
 }
